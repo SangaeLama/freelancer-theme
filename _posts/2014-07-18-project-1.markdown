@@ -2,10 +2,22 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: FYP.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: October 2017
+client: Final Year Project
+category: Robotics and IoT
+description: After experiencing 2015 earthquake, I wanted to contribute to the humanitarian sector as I admired the bravery
+and selflessness of the frontline disaster responders. I wanted to help them in disaster response and recovery by
+building an autonomous drone system that would carry and transport the critical medical supplies where a
+traditional vehicle could not reach.
+Built an autonomous drone system (no human controller required)
+It carried medical payload and dropped it with a parachute on reaching the disaster site
+Telemetry communication through internet by leveraging 3G cellular network,
+Featured unlimited range as it is not controlled by a remote device rather its command and control is
+routed through the internet
+Used a python library called Dronekit and Mavlink protocol for communication with the on-board
+companion computer i.e. a Raspberry Pi 3
+A Virtual Private Server host on the internet to broker the connection between the drone and the ground
+control station (GCS)
 ---
